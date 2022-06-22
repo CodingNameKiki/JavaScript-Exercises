@@ -1,5 +1,5 @@
 function usdToBgn(input) {
-    let bgn = Number(input[0])
-    let usd = 1.79549;
-    console.log (bgn * usd)
+    let usd = Number(input[0])
+    let bgn = usd * 1.79549;
+    console.log (bgn)
 }
