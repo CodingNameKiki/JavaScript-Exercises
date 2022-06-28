@@ -1,7 +1,7 @@
 function oscars (input) {
     let actor = String(input[0]);
     let startPoints = Number(input[1]);
-    let judges = Number(input[3]);
+    let judges = Number(input[2]);
     let finalPoints = startPoints;
     for (let i = 3; i < input.length; i++){
         let name = String(input[i])
